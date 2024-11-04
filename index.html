@@ -32,6 +32,22 @@
             <a href="#" class="nav__link nav__link--primary">Sign Up</a>
           </div>
         </div>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="menu__links">
+            <a href="#" class="menu__link">About</a>
+            <a href="#" class="menu__link">Blog</a>
+            <a href="#" class="menu__link">Pricing</a>
+            <a href="#" class="menu__link">Contact Us</a>
+            <a href="#" class="menu__link">Login</a>
+            <a href="#" class="menu__link menu__link--primary">Sign Up</a>
+          </div>
+        </div>
       </nav>
       <header>
         <div class="container">
@@ -407,41 +423,62 @@
           <div class="row">
             <img
               src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
-              alt class="testimonials__img"
+              alt
+              class="testimonials__img"
             />
-            <div class="testimonial__description">
-              <div class="section__tag">TESTIMONIALS
+            <div class="testimonials__description">
+              <div class="section__tag">TESTIMONIALS</div>
+              <h3 class="section__title">
+                Our Clients <span class="purple">Love Us.</span>
+              </h3>
+              <div class="section__para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolores, tempora! Vero animi reprehenderit rerum ex, odio
+                aliquam ab vel tempore.
               </div>
-                <h3 class="section__title">Our Clients <span class="purple">Love Us.</span></h3>
-                <div class="section__para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, tempora! Vero animi reprehenderit rerum ex, odio aliquam ab vel tempore.</div>
-                <div class="testimonial">
+              <div class="testimonial">
                 <div class="testimonials__rating">
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
                 </div>
-                <h4 class="testimonial__title">
-                  Amazing User Experience
-                </h4>
-                <p class="testimonial__para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <h4 class="testimonial__title">Amazing User Experience</h4>
+                <p class="testimonial__para">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
                 <div class="testimonial__bottom">
                   <div class="testimonial__profile">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt class="testimonial__img">
+                    <img
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
+                      alt
+                      class="testimonial__img"
+                    />
                     <div class="testimonial__details">
                       <div class="testimonial__name">Charlotte Hale</div>
                       <div class="testimonial__role">Director, Delos Inc</div>
                     </div>
                   </div>
                   <div class="testimonial__btns">
-                    <i class="fa-solid fa-arrow-right fa-flip-horizontal testimonial__btn--left" style="color: #B197FC;"></i>
+                    <i
+                      class="fa-solid fa-arrow-right fa-flip-horizontal testimonial__btn--left"
+                      style="color: #b197fc"
+                    ></i>
                     <div class="divider"></div>
-                    <i class="fa-solid fa-arrow-right  testimonial__btn--right" style="color: #B197FC;"></i>
+                    <i
+                      class="fa-solid fa-arrow-right testimonial__btn--right"
+                      style="color: #b197fc"
+                    ></i>
                   </div>
                 </div>
               </div>
-              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -467,40 +504,35 @@
       <div class="row footer__row">
         <div class="footer__columns">
           <div class="footer__column">
-            <div class="footer__column--title">MAIN
-            </div>
+            <div class="footer__column--title">MAIN</div>
             <div class="footer__column--link">Blog</div>
             <div class="footer__column--link">FAQs</div>
             <div class="footer__column--link">Support</div>
             <div class="footer__column--link">About Us</div>
           </div>
           <div class="footer__column">
-            <div class="footer__column--title">PRODUCT
-            </div>
+            <div class="footer__column--title">PRODUCT</div>
             <div class="footer__column--link">Log In</div>
             <div class="footer__column--link">Personal</div>
             <div class="footer__column--link">Business</div>
             <div class="footer__column--link">Team</div>
           </div>
           <div class="footer__column">
-            <div class="footer__column--title">PRESS
-            </div>
+            <div class="footer__column--title">PRESS</div>
             <div class="footer__column--link">Logos</div>
             <div class="footer__column--link">Event</div>
             <div class="footer__column--link">Stories</div>
             <div class="footer__column--link">Office</div>
           </div>
           <div class="footer__column">
-            <div class="footer__column--title">TEAM
-            </div>
+            <div class="footer__column--title">TEAM</div>
             <div class="footer__column--link">Career</div>
             <div class="footer__column--link">Founders</div>
             <div class="footer__column--link">Culture</div>
             <div class="footer__column--link">Onboarding</div>
           </div>
           <div class="footer__column">
-            <div class="footer__column--title">LEGAL
-            </div>
+            <div class="footer__column--title">LEGAL</div>
             <div class="footer__column--link">GDPR</div>
             <div class="footer__column--link">Pricavy Policy</div>
             <div class="footer__column--link">Terms of Service</div>
@@ -510,10 +542,16 @@
         <div class="footer__divider"></div>
         <div class="footer__bottom">
           <div class="footer__logo">
-            <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt class="footer__logo--img">
-          <h5 class="footer__logo--text">Treact Inc.</h5>
+            <img
+              src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg"
+              alt
+              class="footer__logo--img"
+            />
+            <h5 class="footer__logo--text">Treact Inc.</h5>
           </div>
-          <div class="footer__copyright">© 2018 Treact Inc. All Rights Reserved.</div>
+          <div class="footer__copyright">
+            © 2018 Treact Inc. All Rights Reserved.
+          </div>
           <div class="footer__socials">
             <div class="footer__social--link">
               <i class="fa-brands fa-facebook-f"></i>
@@ -527,7 +565,6 @@
           </div>
         </div>
       </div>
-
     </footer>
   </body>
 </html>
